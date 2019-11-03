@@ -12,7 +12,7 @@ None.
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
 
-    kibana_version: "6.x"
+    kibana_version: "7.x"
 
 The version of kibana to install.
 
@@ -55,10 +55,9 @@ None.
       roles:
         - geerlingguy.kibana
 
-## License
+## Original Source 
 
-MIT / BSD
+Forked from https://github.com/geerlingguy/ansible-role-kibana
 
-## Author Information
 
-This role was created in 2014 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
+
